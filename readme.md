@@ -28,11 +28,10 @@ Este repositorio contiene 10 scripts independientes enfocados en la anticipació
 
 \### Ejecutar toda la suite en paralelo
 
-Se incluye un script maestro u orquestador llamado `ejecutar\_todo.sh` que valida, asigna permisos y corre secuencialmente los 10 ejercicios de la práctica. Para utilizarlo:
+Se incluye un script maestro u orquestador llamado `script.sh` que valida, asigna permisos y corre secuencialmente los 10 ejercicios de la práctica. Para utilizarlo:
 
 ```bash
 
-chmod +x ejecutar\_todo.sh
+chmod +x script.sh
 
-./ejecutar\_todo.sh
-
+./script.sh
